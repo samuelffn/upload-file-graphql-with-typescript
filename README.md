@@ -18,12 +18,12 @@ Para parar: **Ctrl + c**
 3. Para o corpo, escolha **MuitpartForm**
 4. Na URL, use: **http://localhost:7411/**
 5. Na guia Multipart, use os parâmetros:
-- **operações**, escolha o tipo Texto (várias linhas) com o conteúdo:
+- **operations**, escolha o tipo Texto (várias linhas) com o conteúdo:
 {
 "query":"mutation fileUpload($file: Upload!) {\n fileUpload(file: $file)\n}",
 "variables":{ "file": null},
 "operationName":"fileUpload"
 }
 - **map**, escolha o tipo de texto com o conteúdo: value: **{"file": ["variables.file"]}**
-- **arquivo**, escolha o tipo de arquivo e selecione um arquivo na máquina local
+- **file**, escolha o tipo de arquivo e selecione um arquivo na máquina local
 6. Clique no botão **Enviar** e você verá a guia Visualizar com o retorno.
