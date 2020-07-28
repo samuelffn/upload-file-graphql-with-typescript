@@ -29,17 +29,25 @@ Para parar: **Ctrl + c**
 6. Clique no botão **Enviar** e você verá a guia Visualizar com o retorno.  
   
 ## Dependências  
+### typescript  
+TypeScript é uma linguagem para JavaScript em escala de aplicativo. O TypeScript adiciona tipos opcionais ao JavaScript que suportam ferramentas para aplicativos JavaScript em grande escala para qualquer navegador, host ou sistema operacional. O TypeScript é compilado para JavaScript legível, baseado em padrões. Experimente no parquinho e mantenha-se atualizado através do nosso blog e conta no Twitter.  
+  
+Instalação:  
+**npm install -g typescript**  
+
+Uso:  
+1- No package.json informa o valor do arquivo de entrada, no caso, **server.js**  
+2- No valor de main: **"main":"server.js",**  
+3- E no valor do scrip para executar o projeto: **"start": "ts-node-dev --transpileOnly --ignore-watch node_modules src/server.ts",**
+Link de referência: https://www.npmjs.com/package/typescript  
+  
 ### ts-node-dev  
 Ele reinicia o processo do nó de destino quando qualquer um dos arquivos necessários é alterado (como padrão node-dev), mas compartilha o processo de compilação Typcript entre as reinicializações. Isso aumenta significativamente a velocidade de reiniciar comparando com node-dev -r ts-node/register ..., nodemon -x ts-node ...variações, porque não há necessidade de instanciar ts-nodecompilação de cada vez.  
   
 Instalação: **yarn add ts-node-dev --dev** ou **npm i ts-node-dev --save-dev**  
 Link para referência: https://www.npmjs.com/package/ts-node-dev  
  
-### typescript  
-TypeScript é uma linguagem para JavaScript em escala de aplicativo. O TypeScript adiciona tipos opcionais ao JavaScript que suportam ferramentas para aplicativos JavaScript em grande escala para qualquer navegador, host ou sistema operacional. O TypeScript é compilado para JavaScript legível, baseado em padrões. Experimente no parquinho e mantenha-se atualizado através do nosso blog e conta no Twitter.  
-  
-Instalação: **npm install -g typescript**  
-Link de referência: https://www.npmjs.com/package/typescript  
+
   
     
 
