@@ -30,7 +30,7 @@ Para parar: **Ctrl + c**
   
 ## Dependências  
 ### typescript  
-TypeScript é uma linguagem para JavaScript em escala de aplicativo. O TypeScript adiciona tipos opcionais ao JavaScript que suportam ferramentas para aplicativos JavaScript em grande escala para qualquer navegador, host ou sistema operacional. O TypeScript é compilado para JavaScript legível, baseado em padrões. Experimente no parquinho e mantenha-se atualizado através do nosso blog e conta no Twitter.  
+TypeScript é uma linguagem para JavaScript em escala de aplicativo. O TypeScript adiciona tipos opcionais ao JavaScript que suportam ferramentas para aplicativos JavaScript em grande escala para qualquer navegador, host ou sistema operacional. O TypeScript é compilado para JavaScript legível, baseado em padrões.  
   
 Instalação:  
 **npm install -g typescript**  
