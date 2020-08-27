@@ -1,5 +1,5 @@
 # upload-file-graphql  
-Poc em Node JS com TypeScript para fazer upload de arquivo com GraphQL  
+Pock em Node JS com TypeScript para fazer upload de arquivo com GraphQL  
   
 ## npm i  
   
