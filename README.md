@@ -18,9 +18,9 @@ Para parar: **Ctrl + c**
 - **operations**, escolha o tipo Texto (várias linhas) com o conteúdo:  
   
   *{  
-    "query":"mutation fileUpload($file: Upload!) {\n fileUpload(file: $file)\n}",  
-    "variables":{ "file": null},  
-    "operationName":"fileUpload"  
+      "query":"mutation fileUpload($file: Upload!) {\n fileUpload(file: $file)\n}",  
+      "variables":{ "file": null},  
+      "operationName":"fileUpload"  
   }*
   
 - **map**, escolha o tipo de texto com o conteúdo: value: **{"file": ["variables.file"]}**  
