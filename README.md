@@ -16,11 +16,13 @@ Para parar: **Ctrl + c**
 4. Na URL, use: **http://localhost:7411/**  
 5. Na guia Multipart, use os parâmetros:  
 - **operations**, escolha o tipo Texto (várias linhas) com o conteúdo:  
-{  
-  "query":"mutation fileUpload($file: Upload!) {\n fileUpload(file: $file)\n}",  
-  "variables":{ "file": null},  
-  "operationName":"fileUpload"  
-}  
+  
+  *{  
+    "query":"mutation fileUpload($file: Upload!) {\n fileUpload(file: $file)\n}",  
+    "variables":{ "file": null},  
+    "operationName":"fileUpload"  
+  }*
+  
 - **map**, escolha o tipo de texto com o conteúdo: value: **{"file": ["variables.file"]}**  
 - **file**, escolha o tipo de arquivo e selecione um arquivo na máquina local  
 6. Clique no botão **Enviar** e você verá a guia Visualizar com o retorno.  
@@ -31,7 +33,7 @@ TypeScript é uma linguagem para JavaScript em escala de aplicativo. O TypeScrip
   
 Instalação:  
 **npm install -g typescript**  
-*Obs.: Para não ficar com problema incompatibilidade com a versão do TS instalado na minha máquina, utilizei a versão 3.9.5*  
+***Obs.:** Para não ficar com problema incompatibilidade com a versão do TS instalado na minha máquina, utilizei a versão 3.9.5*  
 
 Uso:  
 1- No package.json informa o valor do arquivo de entrada, no caso, **server.js**  
@@ -43,7 +45,7 @@ Link de referência: https://www.npmjs.com/package/typescript
 Ele reinicia o processo do nó de destino quando qualquer um dos arquivos necessários é alterado (como padrão node-dev), mas compartilha o processo de compilação Typcript entre as reinicializações. Isso aumenta significativamente a velocidade de reiniciar comparando com node-dev -r ts-node/register ..., nodemon -x ts-node ...variações, porque não há necessidade de instanciar ts-nodecompilação de cada vez.  
   
 Instalação: **yarn add ts-node-dev --dev** ou **npm i ts-node-dev --save-dev**  
-*Obs.: Para não ficar com problema incompatibilidade com a versão do TS instalado na minha máquina, utilizei a versão 1.0.0-pre.49*  
+***Obs.:** Para não ficar com problema incompatibilidade com a versão do TS instalado na minha máquina, utilizei a versão 1.0.0-pre.49*  
   
 Link para referência: https://www.npmjs.com/package/ts-node-dev  
  
