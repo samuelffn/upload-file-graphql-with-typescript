@@ -15,7 +15,7 @@ Para parar: **Ctrl + c**
 3. Na URL, use: **http://localhost:7411/**  
 4. Para o corpo, escolha **MuitpartForm**  
 5. Na guia Multipart, use os parâmetros:  
-- **operations**, escolha o tipo Texto (várias linhas) com o conteúdo:  
+- **operations**, escolha o tipo **Text (Multi-lines)** com o conteúdo:  
   
   *{  
       "query":"mutation fileUpload($file: Upload!) {\n fileUpload(file: $file)\n}",  
