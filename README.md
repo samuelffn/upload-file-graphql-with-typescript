@@ -23,8 +23,8 @@ Para parar: **Ctrl + c**
       "operationName":"fileUpload"  
   }*
   
-- **map**, escolha o tipo de texto com o conteúdo: value: **{"file": ["variables.file"]}**  
-- **file**, escolha o tipo de arquivo e selecione um arquivo na máquina local  
+- **map**, escolha o tipo **Text** e preencha com o conteúdo: **{"file": ["variables.file"]}**  
+- **file**, escolha o tipo **File** e selecione um arquivo na máquina local  
 6. Clique no botão **Enviar** e você verá a guia Visualizar com o retorno.  
   
 ## Dependências  
