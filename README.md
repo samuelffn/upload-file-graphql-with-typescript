@@ -12,8 +12,8 @@ Para parar: **Ctrl + c**
 ## Exemplo de solicitações com Insominia  
 1. Clique em **New request**  
 2. Escolha um nome e tipo de solicitação **POST**  
-3. Para o corpo, escolha **MuitpartForm**  
-4. Na URL, use: **http://localhost:7411/**  
+3. Na URL, use: **http://localhost:7411/**  
+4. Para o corpo, escolha **MuitpartForm**  
 5. Na guia Multipart, use os parâmetros:  
 - **operations**, escolha o tipo Texto (várias linhas) com o conteúdo:  
   
