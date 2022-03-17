@@ -33,6 +33,7 @@ TypeScript é uma linguagem para JavaScript em escala de aplicativo. O TypeScrip
   
 Instalação:  
 **npm install -g typescript**  
+**npm install -D typescript@3.9.5** ou **yarn add typescript --dev**  
 ***Obs.:** Para não ficar com problema incompatibilidade com a versão do TS instalado na minha máquina, utilizei a versão 3.9.5*  
 
 Uso:  
